@@ -1,0 +1,68 @@
+
+.a-row{
+  padding-top: 15px;
+  
+}
+
+.home{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  background-color:  rgb(242, 210, 165);
+  /* top: 95px; */
+ 
+  color:rgb(247, 75, 101);
+  
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+   
+  }
+  .swiper-slide {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+    padding-bottom: 18px;
+    padding-top: 18px;
+    background-color:  rgb(255, 230, 197);
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  /* this is the important part */
+.swiper-container .swiper-slide {
+    width: auto;
+  }
+.swiper-wrapper{
+    padding-bottom: 40px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0px !important;
+}
+
+  .swiper-button-next{
+    background-color: rgba(255, 255, 255, 0.29);
+    width: 100%;
+    font-weight: bolder;
+    
+  }
+  .swiper-button-prev {
+     background-color: rgb(255, 255, 255,0.29); 
+    width: 100%;
+    font-weight: bolder;
+  }
+
+  
