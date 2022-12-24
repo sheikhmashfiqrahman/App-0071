@@ -6,7 +6,7 @@ if (process.env.NODE_ENV != 'production') {
 
 const corsClientDomain = "http://localhost:3000"
 
-const mongoDBUrl = "mongodb+srv://Sheikh:hello@cluster0.ov8d2g4.mongodb.net/?retryWrites=true&w=majority";
+const mongoDBUrl = "mongodb+srv:put cluster link here";
 
 const sessionSecret = "reallysecretsecret" || "notVerySecretSecret"
 
